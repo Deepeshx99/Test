@@ -1,0 +1,68 @@
+body
+{
+	font-family:Arial Unicode MS;
+	font-size:14px;
+	clear:both;
+	background-color:#ccc;
+	line-height:22px;
+	margin:0;
+}
+
+#outer{width:100%;background-color:#fff;margin:0;}
+#outer #inner{width:100%;background-color:#fff;margin:0 auto}
+.head{width:100%;background-color:#F0F2F4;height:50px;box-shadow: 2px 2px 15px #4C5F81;}
+
+.head .fb-icon{float:right;display:inline-block;padding:7px 25px 5px 5px;}
+.head .mail{float:right;display:inline-block;padding:15px 15px 5px 2px;}
+.head .mail-icon{float:right;display:inline-block;padding:7px 2px 5px 15px;}
+.head .mob{float:right;display:inline-block;padding:15px 15px 5px 2px;}
+.head .mob-icon{float:right;display:inline-block;padding:6px 1px 5px 15px;}
+.head .Name{float:left;color:#ff4d4d;font-size:22px;font-family:magneto;padding:7px 5px 5px 7px;}
+
+.brand{width:100%;background-color:White;min-height:110px;}
+.brand .btag{float:left;display:inline-block;padding:25px 5px 5px 30px;}
+.htag{float:right;display:inline-block;font-size:17px;padding:35px 5px 5px 25px;font-family:Arial Unicode MS;font-style:bold;}
+.htag:hover{color:blue;font-weight:bold;}
+
+.topbox{width:100%;background:url('../img/banner.jpg') no-repeat;
+        box-shadow: 5px 5px 15px #00ff00;background-position:top center;background-size:cover;height:550px;text-align:center;}
+.topbox h1{font-size:48px;color:white;padding-top:155px;margin:0;}
+.topbox h3{font-size:32px;color:white;margin:0;padding:30px;font-weight:300;}
+.topbox .consultbox{font-size:30px;color:white;display:inline-block;background-color:#f9ca56;border-radius:13px;padding:10px 20px 10px 20px;}
+.consultbox:hover{border:3px groove orange;font-weight:bold;color:HighlightText}
+
+.aboutus{width:85%;background-color:#fff; margin: 0 auto;}
+.aboutus .abtop{width:100%; text-align:center;}
+.abtop h1{font-size:3em;padding-top:60px;margin:0;}
+.aboutus .social{width:100%; margin:0 auto; }
+.social .socialblock{ float:left;height:230px;margin:0 auto;width:33.33%;text-align:center;background-color:#fff;padding:30px 0px 20px 0px;}
+
+.ourapproach{clear:both;width:100%;background-color:#ddd;clear:both;min-height:500px;}
+.ourapproach .atop{width:100%;min-height:140px;text-align:center;}
+.atop h1{font-size:2em;padding-top:40px;margin:0;}
+.ourapproach .innerbox{width:70%;background-color:#ddd;margin:0 auto}
+.stepboxleft{text-align:left;width:100%;background-color:#fff;margin:0 0 30px 0; display:inline-block;}
+.stepboxright{text-align:right;width:100%;background-color:#fff; min-height:100px; display:inline-block;}
+.stepnoo{width:50px;height:50px;background-color:Red;border-radius:7px;border:2px solid #fff;text-align:center;font-size:30px;font-weight:bold;font-family:Broadway;padding-top:10px;color:White;margin:0 0 0 0;position:relative;top:50px;left:360px;}
+.stepnoe{width:50px;height:50px;background-color:Red;border-radius:7px;border:2px solid #fff;text-align:center;font-size:30px;font-weight:bold;font-family:Broadway;padding-top:10px;color:White;margin:0 0 0 0;position:relative;top:50px;left:540px;}
+.aptext{float:left;display:inline-block;}
+.app_lpic{display:inline-block;float:left;}
+.app_rpic{height:auto;display:inline-block;float:right;}
+
+
+.redbox {width:100%;background-color:#de2b24;height:650px;color:white;}
+.redbox .rtop{width:100%;height:20%;text-align:center;}
+.rtop h1{font-size:2em;padding-top:30px;margin:0;}
+.redbox .smallbox{background-color:#f35e58;width:75%;height:60%;margin:0 auto;padding:0 0 0 0;}
+.smallbox .block{clear:both;width:25% ;height:50%;background-color:Gray;margin:0 0 0 0;display:inline-block;}
+.smallbox .block2{clear:both;width:25%;height:50%;margin:0 0 0 0 ;display:inline-block;}
+.formfb{background-color:#1387c0;}
+
+
+.footer{clear:both;width:100%;background-color:#2a2a2a;min-height:400px;color:white;text-align:center;}
+.footer .top{margin:0 auto;font-size:30px;padding:50px 0px 30px 0px;font-family:Century;}
+.footer .footerpic{display:inline-block;margin:5px 5px 25px 5px;}
+.footer .fmail input[type="text"]{ min-width:500px;border: solid 0px #dcdcdc;margin:30px 5px 10px 5px;font-size:16px;padding:8px 8px 8px 8px;background-color:#515151;}
+.footer .fsubscribe input[type="submit"]{background:transparent;border:2px solid #aaa;border-radius:7px;padding:8px 14px 8px 14px;font-size:16px;margin-top:12px;color:#ccc;font-size:16px;}
+
+.legal{background-color:#515151;padding:10px 0px 10px 0px;text-align:center;}
